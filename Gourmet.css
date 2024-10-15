@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Georgia, Serif;
+    transition: 0.5s;
+}
+body{
+    box-sizing: border-box;
+}
+.header{
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    padding: 15px 2%;
+}
+
+.header div a{
+    
+    width: 92px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 3px;
+    /* box-shadow: 0px 5px 0 rgb(201, 196, 196); */
+ }  
+ .w1:hover, .w2:hover, .w3:hover, .logo:hover{
+    background-color: rgb(201, 196, 196);
+ }
+ .navbar{
+    display: flex;
+ }
+ .logo , .p1{
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    width: 300px;
+    height: 39px;
+    /* box-shadow: 0px 5px 0 rgb(201, 196, 196); */
+ }
+.burger{
+    width: 100%;
+    height: 570px;
+    background-image: url(https://www.w3schools.com/w3images/hamburger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    margin-top: 60px;
+    display: flex;
+    align-items:end;
+}
+.leCatering{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    /* background-color: red; */
+    font-size: 32px;
+    
+    letter-spacing: 5px;
+    color: #6d6b6b;
+}
+
+.second-page{
+    display: flex;
+    background-color: white;
+}
+.second-page img{
+    height:70% ;
+    width: 38%;
+    margin-top: 90px;
+    margin-left: 110px;
+    border-radius: 5px;
+    opacity: 0.7;
+}
+.text {
+    width: 45%;
+    height: 50%;
+    /* background-color: red; */
+    margin-left: 40px;
+    margin-top:120px ;
+}
+.text h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+.text h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size:20px ;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+.text h2, .co{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 180%;
+}
+.co{
+    color: gray;
+}
+.third-page, .forth-page{
+    /* background-color: red; */
+    height: 600px;
+    /* width: 100%; */
+    display: flex;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-bottom: 90px;
+}
+ .text3{
+    margin-top: 20px;
+    width: 45%;
+    height: auto;
+    /* background-color: red; */
+ }  
+.text3 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+.text3 h3{
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+.text3 p{
+    margin-top: 20px;
+    font-size:15px ;
+    font-weight: 300;
+    /* letter-spacing: 3px; */
+    color: gray;
+}
+ .third-page img{
+    width: 40%;
+    height: 100%;
+    border-radius: 5px;
+    opacity: 0.7;
+} 
+.text4{
+    width: 95%;
+    
+}
+.text4 h1{
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+.text4 p{
+    margin-top: 50px;
+    line-height: 140%;
+}
+.text4 h3{
+    font-size: 20px;
+    color: rgb(59, 59, 123);
+    margin-top: 30px;
+}
+.text4 a{
+    text-decoration: none;
+    color: rgb(193, 39, 39);
+}
+.text4 a:active{
+    color: rgb(68, 68, 224);
+}
+input{
+    width: 90%;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+    margin-left: 30px;
+    padding-left: 5px;
+}
+button{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+button:hover{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: rgb(202, 202, 202);
+    cursor: pointer;
+}
+.fifth-page{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(202, 202, 202);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fifth-page a{
+    color:black ;
+    margin-left: 4px;
+}
+.fifth-page a:hover{
+    color: rgb(63, 155, 63);
+   margin-left: 4px;
+}
